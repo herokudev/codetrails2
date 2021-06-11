@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head id="header">
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Original Trombones">
+    <nav id="nav-bar"> </nav>
+    <a class="nav-link" href="#"> Features</a>
+    <a class="nav-link" href="#"> How it works</a>
+    <a class="nav-link" href="#"> Pricing</a>
   </head>
 
   <body>
-    <p>Hello World, we are software developers!</p>
+    <form id="form">
+      <label for="email" action="https://www.freecodecamp.com/email-submit">
+        Handcrafted, home-made masterpieces
+        <input id="email" type="email" name="email" required> 
+      </label>
+      <input id="submit" type="submit" value="GET STARTED">
+    </form>
+
+    <div>
+      <table>
+        <tr>
+          <td><img src="" alt="">
+          <h1>#</h1></td>
+          <td>
+            <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="" alt="">
+          <h1>#</h1></td>
+          <td>
+            <h2>Fast Shipping</h2>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="" alt="">
+          <h1>#</h1></td>
+          <td>
+            <h2>Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <video id="video" width="560" height="315" controls>
+        <source src="assets/videoplayback.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div>
+      <table>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>
